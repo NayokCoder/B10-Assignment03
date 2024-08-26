@@ -42,3 +42,21 @@
 .boder {
   border: 1px solid rgba(233, 233, 233, 1);
 }
+
+/* ofice part  */
+.white-bg {
+  background-image: url(assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.black2 {
+  background-color: rgba(28, 28, 28, 1);
+}
+
+.vblue {
+  transition: filter 0.3s ease;
+}
+.vblue:hover {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(98%) saturate(500%)
+    hue-rotate(137deg) brightness(100%) contrast(105%);
+}
