@@ -33,14 +33,7 @@
                             </svg>
                         </div>
                         <!-- Dropdown content for the mobile menu -->
-                        <ul tabindex="0"
-                            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li class="hover:font-bold"><a>Home</a></li>
-                            <li class="hover:font-bold"><a>Services</a></li>
-                            <li class="hover:font-bold"><a>Portfolio</a></li>
-                            <li class="hover:font-bold"><a>Blogs</a></li>
-                            <li class="hover:font-bold"><a>Contact Us</a></li>
-                        </ul>
+
                     </div>
 
                     <!-- Logo and Medium/Large Screen Menu -->
@@ -53,7 +46,7 @@
                 </div>
 
                 <!-- MAIN NAV (Hidden on small screens) -->
-                <div class="navbar-center hidden lg:flex">
+                <div class="navbar-center justify-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-[1rem]">
                         <li class="hover:font-bold"><a>Home</a></li>
                         <li class="hover:font-bold"><a>Services</a></li>
@@ -64,13 +57,13 @@
                 </div>
 
                 <!-- Navbar End for Mobile and Large Screens -->
-                <div class="navbar-end hidden lg:flex gap-4">
+                <div class="w-3/12 navbar-end hidden lg:flex gap-4">
                     <!-- SEARCH ICON -->
-                    <div class="h-8 w-8 arrow btn-custom">
+                    <div class="h-8 w-8 btn-custom">
                         <img src="assets/icons8-search.gif" alt="Search Icon">
                     </div>
                     <!-- CART ICON -->
-                    <div class="h-8 w-8 arrow btn-custom">
+                    <div class="h-8 w-8 btn-custom">
                         <img src="assets/icons8-cart (1).gif" alt="Cart Icon">
                     </div>
                     <!-- BOOK CONSULT BUTTON -->
@@ -147,11 +140,10 @@
                         </p>
 
                         <!-- COMMERCIAL Section -->
-                        <div
-                            class="hero bg-white rounded-2xl shadow-lg p-6 mb-6 flex flex-col lg:flex-row items-center">
-                            <img src="assets/commercial.png" class="w-full lg:w-1/3 rounded-lg shadow-2xl mb-4 lg:mb-0"
+                        <div class="hero bg-white rounded-2xl shadow-lg p-6 mb-6 flex  items-center gap-5">
+                            <img src="assets/commercial.png" class="rounded-lg shadow-2xl mb-4 lg:mb-0"
                                 alt="Commercial Image">
-                            <div class="lg:ml-6 text-center lg:text-left">
+                            <div class="lg:ml-6  lg:text-left">
                                 <h1 class="text-lg lg:text-xl font-extrabold">Commercial</h1>
                                 <p class="mt-2 text-sm lg:text-base">
                                     The barn house captivates with its blend of rustic charm and modern.
@@ -160,8 +152,8 @@
                         </div>
 
                         <!-- RESIDENTIAL Section -->
-                        <div class="hero bg-white rounded-2xl shadow-lg p-6 flex flex-col lg:flex-row items-center">
-                            <img src="assets/commercial.png" class="w-full lg:w-1/3 rounded-lg shadow-2xl mb-4 lg:mb-0"
+                        <div class="hero bg-white rounded-2xl shadow-lg p-6 flex  items-center gap-5">
+                            <img src="assets/commercial.png" class=" rounded-lg shadow-2xl mb-4 lg:mb-0"
                                 alt="Residential Image">
                             <div class="lg:ml-6 text-center lg:text-left">
                                 <h1 class="text-lg lg:text-xl font-extrabold">Residential</h1>
@@ -491,9 +483,10 @@
         <div class="container mx-auto text-center">
             <!-- Logo Section -->
             <div class="flex items-center justify-center gap-1 mt-8">
-                <div class="h-8 w-8 transform -rotate-45">
-                    <i class="fa-solid fa-arrow-right"></i>
+                <div class="h-8 w-8 arrow -rotate-45">
+                    <i class="fa-solid fa-arrow-right" style="color: black;"></i>
                 </div>
+
                 <a class="text-3xl font-extrabold">Rinterio</a>
             </div>
 
@@ -504,7 +497,7 @@
             </p>
 
             <!-- Navigation Links -->
-            <nav class="flex flex-col sm:flex-row justify-center gap-4 mt-6 ">
+            <nav class="flex flex-col sm:flex-row sm:w-7/12 justify-between mx-auto gap-4 mt-6 ">
                 <a class="link link-hover flex-shrink-0">Home</a>
                 <a class="link link-hover flex-shrink-0">Services</a>
                 <a class="link link-hover flex-shrink-0">Portfolio</a>
@@ -512,11 +505,12 @@
                 <a class="link link-hover flex-shrink-0">Contact Us</a>
             </nav>
             <aside class="container  sm:flex">
-                <div class="flex mx-auto  gap-1 btn  btn-custom text-xl rounded-full mt-4 mb-24">
+                <div class="flex mx-auto  gap-1 btn  btn-custom text-xl rounded-full mt-12 mb-24">
                     <button>Book Consult</button>
                     <div class="h-8 w-8 arrow -rotate-45">
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
+
                 </div>
             </aside>
     </footer>
